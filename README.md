@@ -55,6 +55,7 @@ A virtualized home lab built to simulate a real enterprise IT environment using 
 
 ### Active Directory — Employees OU
 ![Employees OU](screenshots/employees-ou.png)
+(screenshots/employees-ou1.png)
 
 ### Active Directory — IT OU
 ![IT OU](screenshots/it-ou.png)
