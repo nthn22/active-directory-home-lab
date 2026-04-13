@@ -1,7 +1,3 @@
-# active-directory-home-lab
-
-Here's the full README to paste in. Go to your repo, click the pencil icon to edit the README, delete everything in there, and paste this:
-
 markdown# Active Directory Home Lab
 
 A virtualized home lab built to simulate a real enterprise IT environment using Windows Server 2022 and Active Directory. This project was built to develop hands-on experience with the tools and tasks common in IT support and systems administration roles.
