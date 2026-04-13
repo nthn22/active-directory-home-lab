@@ -1,4 +1,4 @@
-markdown# Active Directory Home Lab
+# Active Directory Home Lab
 
 A virtualized home lab built to simulate a real enterprise IT environment using Windows Server 2022 and Active Directory. This project was built to develop hands-on experience with the tools and tasks common in IT support and systems administration roles.
 
