@@ -88,13 +88,13 @@ To complement the Active Directory environment, a Jira project was configured to
 ### Screenshots
 
 #### Completed Sprint Board
-![Jira Board](screenshots/jiralab_board)
+![Jira Board](screenshots/jiralab_board.png)
 
 #### Sample Ticket — Account Lockout Resolution
-![Account Lockout Ticket](screenshots/jiralab_documentation1)
+![Account Lockout Ticket](screenshots/jiralab_documentation1.png)
 
 #### Sample Ticket — Password Reset Resolution
-![Account Lockout Ticket](screenshots/jiralab_documentation2)
+![Account Lockout Ticket](screenshots/jiralab_documentation2.png)
 
 ## Tools Used
 - Oracle VirtualBox
