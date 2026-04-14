@@ -64,6 +64,38 @@ A virtualized home lab built to simulate a real enterprise IT environment using 
 ### Domain User Account Info
 ![Account Info](screenshots/account-info.png)
 
+## Help Desk Ticketing Lab
+
+To complement the Active Directory environment, a Jira project was configured to simulate a real IT help desk ticket queue. Tickets were created, triaged, worked through, and resolved across a full sprint cycle.
+
+### Ticket Scenarios
+
+| Ticket | Category | Priority | Resolution |
+|---|---|---|---|
+| User cannot log into domain account | Account Management | High | Located account in AD, cleared lockout, confirmed login |
+| Printer not responding at front desk | Hardware | High | Cleared print queue, restarted print spooler service |
+| PC running slow — service advisor workstation | Hardware | Medium | Cleared startup programs, temp files, confirmed performance improvement |
+| New employee workstation setup | Onboarding | Low | Created AD account, joined machine to domain, verified GPO applied |
+| User requesting password reset | Account Management | Medium | Reset password in AD Users and Computers, confirmed successful login |
+
+### What Was Practiced
+
+- Creating and managing tickets in Jira across a full sprint
+- Triaging tickets by priority and category
+- Writing detailed resolution notes for each ticket
+- Connecting help desk workflows to Active Directory tasks performed in the lab
+
+### Screenshots
+
+#### Completed Sprint Board
+![Jira Board](screenshots/jiralab_board)
+
+#### Sample Ticket — Account Lockout Resolution
+![Account Lockout Ticket](screenshots/jiralab_documentation1)
+
+#### Sample Ticket — Password Reset Resolution
+![Account Lockout Ticket](screenshots/jiralab_documentation2)
+
 ## Tools Used
 - Oracle VirtualBox
 - Windows Server 2022
@@ -71,3 +103,5 @@ A virtualized home lab built to simulate a real enterprise IT environment using 
 - Active Directory Domain Services (AD DS)
 - Group Policy Management Console
 - DNS Server
+- Jira (Atlassian)
+- Scrum Sprint Workflow
