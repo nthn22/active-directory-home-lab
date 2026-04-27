@@ -112,10 +112,10 @@ High priority tickets were resolved first. Medium priority tickets worked in par
 ![Jira Sprint 2](screenshots/jiralab_sprint2_board.png)
 
 #### Sample Ticket - Employee Offboarding - Account Deactivation
-![Jire Sprint 2](screenshots/jiralab_sprint2_deact.png)
+![Jira Sprint 2](screenshots/jiralab_sprint2_deact.png)
 
 #### Sample Ticket - Microsoft 365 Access Issue
-![Jire Sprint 2](screenshots/jiralab_sprint2_365.png)
+![Jira Sprint 2](screenshots/jiralab_sprint2_365.png)
 
 ## Tools Used
 - Oracle VirtualBox
