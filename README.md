@@ -78,6 +78,18 @@ To complement the Active Directory environment, a Jira project was configured to
 | New employee workstation setup | Onboarding | Low | Created AD account, joined machine to domain, verified GPO applied |
 | User requesting password reset | Account Management | Medium | Reset password in AD Users and Computers, confirmed successful login |
 
+### Sprint 2 Ticket Scenarios
+
+| Ticket | Category | Priority | Resolution |
+|---|---|---|---|
+| New Employee Onboarding — Workstation Setup | Onboarding | High | Created AD account in Employees OU, added to security groups, set temp password with forced change at next logon, verified domain login |
+| Employee Offboarding — Account Deactivation | Account Management | High | Disabled AD account, removed from all security groups, documented steps for audit trail |
+| Software Installation Request | Software | Medium | Verified software was on approved list, installed on user workstation, confirmed functionality |
+| Microsoft 365 Access Issue | Account Management | Medium | Verified AD account status, confirmed M365 license assigned, re-authenticated user to restore access |
+| VPN Connectivity Issue | Network | Low | Verified internet connectivity, confirmed VPN client version, re-authenticated credentials to restore connection |
+
+High priority tickets were resolved first. Medium priority tickets worked in parallel. Low priority staged in backlog — reflecting real-world triage logic.
+
 ### What Was Practiced
 
 - Creating and managing tickets in Jira across a full sprint
@@ -95,6 +107,15 @@ To complement the Active Directory environment, a Jira project was configured to
 
 #### Sample Ticket — Password Reset Resolution
 ![Account Lockout Ticket](screenshots/jiralab_documentation2.png)
+
+#### Sprint 2 Board
+![Jira Sprint 2](screenshots/jiralab_sprint2_board.png)
+
+#### Sample Ticket - Employee Offboarding - Account Deactivation
+![Jire Sprint 2](screenshots/jiralab_sprint2_deact.png)
+
+#### Sample Ticket - Microsoft 365 Access Issue
+![Jire Sprint 2](screenshots/jiralab_sprint2_365.png)
 
 ## Tools Used
 - Oracle VirtualBox
